@@ -1,0 +1,26 @@
+Statement
+
+If a € R*, then a trace of the matrix aa’ is equal to the Euclidean distance
+
+between the origin and the point a.
+
+PCA becomes equivalent to LDA if we project samples of each class using PCA
+
+independently.
+
+If data distributions exactly follow y=x, then the rank of the covariance matrix
+
+will be zero.
+
+If X and Y are two real-valued random variables such that Cov( X,Y) < 0 then
+
+at least one of X or Y must have negative variance i.e. either o(X) < 0 or
+
+a(Y) <0.
+
+Naive Bayes assumes that all features are conditionally independent given the
+
+class label.
+
+die is loaded so that the probability of a face coming up is proportional to the
+. The expected value of X
