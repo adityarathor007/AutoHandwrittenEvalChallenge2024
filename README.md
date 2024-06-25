@@ -48,7 +48,7 @@ Install the **libraries** required by doctr:
 pip install defusedxml tqdm anyascii shapely Pillow pypdfium2 tf2onnx pyclipper rapidfuzz langdetect huggingface_hub scipy opencv-python opencv-contrib-python opencv-python-headless 
 ```
 
-Once the setup is done in the **specify directories** section:
+Once the setup is done in the **specify File Paths** section:
 -  add the parent folder and the image folder
 
 
@@ -64,7 +64,7 @@ image_folder = f'{parent_folder}/<folder name>'
 
 ```
 
-- Add the name of the csv file in which the marks along image name will be written
+- Add the name of the csv file in which the pred marks along image name will be written
 
 ```bash
 # path of csv where the output will be written(eg: {parent_folder}/csvs/pred.csv')
@@ -80,6 +80,8 @@ pred_csv_path=f'{parent_folder}/<csv_file>'
 actual_ans_csv_path=f'{parent_folder}/<csv_file>'
 
 ```
+
+- After Passing the required file paths output will be saved in the pred_csv_path
 
 
 - For Evalution to calculate MAE(in the evaluation section):
