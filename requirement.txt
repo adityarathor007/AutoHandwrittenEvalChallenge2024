@@ -1,0 +1,2 @@
+torch
+python-doctr defusedxml tqdm anyascii shapely Pillow pypdfium2 tf2onnx pyclipper rapidfuzz langdetect huggingface_hub scipy
