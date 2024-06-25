@@ -1,2 +1,46 @@
 torch
-python-doctr defusedxml tqdm anyascii shapely Pillow pypdfium2 tf2onnx pyclipper rapidfuzz langdetect huggingface_hub scipy
+defusedxml tqdm anyascii shapely Pillow pypdfium2 tf2onnx pyclipper rapidfuzz langdetect huggingface_hub scipy
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://link-to-project
+```
+
+Go to **code_notebook.py** and follow these steps to start the setup and install the necessary libraries:
+
+
+    
+  **For DOCTR:** 
+
+- in this repo their is a folder named <doctr> in which all neccessary files are there for this project
+
+-  Make sure you have installed Tensorflow and PyTorch >= 1.12.0 . in your environment
+
+- You can refer the following repo for more info: [Doctr](https://github.com/mindee/doctr)
+
+
+
+**For PaddleOCR:**
+
+```bash
+pip install Cmake ta-lib wheel setuptools --upgrade
+```
+
+```bash
+pip install paddleocr paddlepaddle 
+```
+Refer to the following repo for more info: [PaddlePaddle](https://github.com/PaddlePaddle/PaddleOCR/blob/main/doc/doc_ch/quickstart.md)
+
+
+Install the **libraries** required by doctr:
+
+```bash
+pip install defusedxml tqdm anyascii shapely Pillow pypdfium2 tf2onnx pyclipper rapidfuzz langdetect huggingface_hub scipy opencv-python opencv-contrib-python opencv-python-headless 
+```
+
+
+
