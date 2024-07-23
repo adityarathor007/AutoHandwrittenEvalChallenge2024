@@ -1,5 +1,6 @@
 
 # AutoEval Summer Challenge
+ [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/adirathor07/AutoEval)
 
 The aim of this project is to streamline the evaluation process of True/False answer sheets by OCR and automated image processing.
 
